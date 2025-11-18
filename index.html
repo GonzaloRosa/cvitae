@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Currículum Vitae - Gonzalo Leonel Rosa</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      background: white;
+      display: flex;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      border-radius: 8px;
+    }
+    .sidebar {
+      width: 30%;
+      background: #2c3e50;
+      color: white;
+      padding: 30px;
+      text-align: center;
+      border-top-left-radius: 8px;
+      border-bottom-left-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .sidebar img {
+      width: 150px;
+      height: 170px;
+      border-radius: 16px;
+      border: 2px solid #3498db;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.35);
+      margin-bottom: 20px;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+    .sidebar img:hover {
+      transform: scale(1.05);
+    }
+    .sidebar h1 {
+      font-family: Georgia, serif;
+      font-size: 24px;
+      margin: 0;
+      color: #ecf0f1;
+    }
+    .sidebar p {
+      font-size: 14px;
+      margin: 10px 0;
+    }
+    .sidebar .contact p {
+      font-size: 12px;
+      line-height: 1.4;
+    }
+    .main {
+      width: 70%;
+      padding: 30px 40px;
+      border-top-right-radius: 8px;
+      border-bottom-right-radius: 8px;
+    }
+    h2 {
+      font-family: Georgia, serif;
+      font-size: 18px;
+      color: #2c3e50;
+      margin-top: 30px;
+      margin-bottom: 15px;
+      border-bottom: 1px solid #3498db;
+      padding-bottom: 5px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    .skills {
+      background: #ecf0f1;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+    .footer {
+      text-align: center;
+      font-size: 11px;
+      color: #777;
+      margin-top: 40px;
+      border-top: 1px solid #ddd;
+      padding-top: 10px;
+    }
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+      .sidebar,
+      .main {
+        width: 100%;
+        border-radius: 0;
+      }
+      .sidebar {
+        border-radius: 8px 8px 0 0;
+      }
+      .main {
+        border-radius: 0 0 8px 8px;
+      }
+      .sidebar img {
+        margin: 0 auto 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <img src="Sin título.png" alt="Foto de Gonzalo Leonel Rosa" />
+      <h1>Gonzalo Leonel Rosa</h1>
+      <p>Estudiante de la Licenciatura en Gestión de Tecnologías de la Información</p>
+      <div class="contact">
+        <p><strong>Dirección:</strong><br />Presidente Derqui, Buenos Aires, Argentina</p>
+        <p><strong>Teléfono:</strong><br />11-2844-6344</p>
+        <p><strong>Email:</strong><br />gonzaleoros@gmail.com</p>
+        <p><strong>Fecha de Nacimiento:</strong><br />13/01/1999</p>
+      </div>
+    </div>
+    <div class="main">
+      <h2>Perfil Profesional</h2>
+      <p>Estudiante avanzado en Tecnologías de la Información con conocimientos en desarrollo web, programación y bases de datos (Python, Java, JavaScript y SQL). Participo activamente en proyectos académicos y uso GitHub para gestionar mis trabajos. Busco aplicar mis conocimientos en un entorno real, enfrentar desafíos prácticos y contribuir al desarrollo de soluciones efectivas mientras continúo aprendiendo y creciendo profesionalmente.</p>
+
+      <h2>Formación Académica</h2>
+      <ul>
+        <li><strong>Licenciatura en Gestión de Tecnologías de la Información</strong> – Universidad Nacional de José C. Paz (2021 - Presente)<br />Más del 50% de la carrera aprobada.</li>
+      </ul>
+
+      <h2>Experiencia Laboral</h2>
+      <ul>
+        <li><strong>Negocio Familiar</strong> – Presidente Derqui (10/2020 – 05/2025)<br />Control de stock, registros, automatización básica y organización de procesos.</li>
+        <li><strong>Asesor Comercial</strong> – Fiat Taraborelli / Renault Galante D’Antonio (2019 – 2020)<br />Gestión de leads mediante CRM y optimización de procesos comerciales.</li>
+        <li><strong>Cajero</strong> – Helados Daniel (04/2017 – 01/2019)<br />Manejo de sistemas de facturación y punto de venta, atención al cliente.</li>
+      </ul>
+
+      <h2>Habilidades Técnicas</h2>
+      <div class="skills">
+        <ul>
+          <li><strong>Lenguajes de Programación:</strong> Python, Java, JavaScript</li>
+          <li><strong>Desarrollo Web:</strong> HTML5, CSS3, JavaScript</li>
+          <li><strong>Bases de Datos:</strong> MySQL, SQL Server, consultas SQL, modelado básico</li>
+          <li><strong>Modelado y Análisis:</strong> Diagramas UML, análisis de requisitos</li>
+          <li><strong>Metodologías:</strong> Kanban</li>
+          <li><strong>Control de Versiones:</strong> Git y GitHub</li>
+          <li><strong>Herramientas Digitales:</strong> Visual Studio Code, herramientas de virtualización (VirtualBox), plataformas virtuales</li>
+          <li><strong>Office:</strong> Word, Excel, PowerPoint (nivel medio)</li>
+          <li><strong>Redes y Comunicaciones:</strong> Conceptos básicos de redes como IP, LAN, Wi-Fi y fundamentos de comunicación</li>
+          <li><strong>Sistemas Operativos:</strong> Windows (avanzado), Linux (básico)</li>
+          <li><strong>Seguridad Informática:</strong> Conceptos iniciales como cifrado, contraseñas seguras, copias de seguridad y buenas prácticas de protección de datos</li>
+        </ul>
+      </div>
+
+      <h2>Cursos y Certificaciones</h2>
+      <ul>
+        <li><strong>Desarrollo Web</strong> – Coderhouse (10/2022 – 12/2022): HTML5, CSS3</li>
+        <li><strong>JavaScript</strong> – Coderhouse (01/2023 – 03/2023): Programación web, lógica, DOM</li>
+        <li><strong>Python (Autodidacta)</strong> – Prácticas en automatización, scripts y fundamentos</li>
+        <li><strong>Java (Autodidacta)</strong> – Programación orientada a objetos, sintaxis y lógica</li>
+        <li><strong>Inglés para Adultos 1</strong> – Canadian Academy (Desde 10/2022): Nivel básico-intermedio</li>
+      </ul>
+
+      <h2>GitHub</h2>
+      <ul>
+        <li><strong>GitHub:</strong> https://github.com/GonzaloRosa</li>
+      </ul>
+
+      <h2>Proyectos Académicos</h2>
+      <ul>
+        <li><strong>Tienda Web:</strong> Desarrollo de una tienda online sencilla, aplicando HTML, CSS y estructura básica de navegación.</li>
+        <li><strong>Conversor y herramientas en JavaScript:</strong> Pequeñas funcionalidades interactivas y ejercicios prácticos en JavaScript.</li>
+        <li><strong>Modelado y consultas SQL:</strong> Prácticas académicas con bases de datos, creación de tablas y consultas.</li>
+        <li><strong>Sistema de reservas básico:</strong> Maquetación de un sitio web para gestionar reservas de hotel.</li>
+        <li><strong>Gestión de usuarios:</strong> Proyecto académico centrado en el manejo simple de usuarios y estructura de datos.</li>
+      </ul>
+
+      <h2>Idiomas</h2>
+      <ul>
+        <li>Español: Nativo</li>
+        <li>Inglés: Nivel básico-intermedio</li>
+      </ul>
+
+      <h2>Referencias</h2>
+      <p>Jessica Custodio – Recursos Humanos<br />Email: jessica.custodio@galantedantonio.com</p>
+
+      <div class="footer">
+        <p>Currículum actualizado al 11/2025</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
